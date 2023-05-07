@@ -1,0 +1,7 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: spectral
+        name: scan1
+        entry: /root/spectral.sh
+        language: script
